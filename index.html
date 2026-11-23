@@ -4,10 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Surya-Digi | Welcome</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" href="star_any.jpg">
+    
+    <!-- Full-screen Background Video Styling -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body, html {
+            height: 100%;
+            overflow: hidden;
+        }
+
+        #bg-video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+            z-index: -1;
+        }
+    </style>
 </head>
 <body>
     <video autoplay muted loop playsinline id="bg-video">
-  <source src="3968318407-preview%20(1).mp4" type="video/mp4">
-</video>
+        <source src="3968318407-preview%20(1).mp4" type="video/mp4">
+    </video>
 </body>
 </html>
